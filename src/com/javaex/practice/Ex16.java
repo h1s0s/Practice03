@@ -14,9 +14,9 @@ public class Ex16 {
 			int numea = num/5;//5의배수의개수
 			
 		}
+//		sc.close();
 		
 		
-		sc.close();
 
 	}
 
