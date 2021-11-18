@@ -9,18 +9,19 @@ public class Ex10 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("숫자를 입력하세요.");
-		System.out.print("숫자: ");
-		int num1 = sc.nextInt();
-		System.out.print("숫자: ");
-		int num2 = sc.nextInt();
-		System.out.print("숫자: ");
-		int num3 = sc.nextInt();
-		System.out.print("숫자: ");
-		int num4 = sc.nextInt();
-		System.out.print("숫자: ");
-		int num5 = sc.nextInt();
+		int num = 0;
+		for(int i=1; i<6; i++) {
+			System.out.print("숫자: ");
+			int push = sc.nextInt();
+			if (push<num) {//입력한 숫자가 크면
+				//아무것도 없이 종료.
+			} else if(push>=num) {//입력한 숫자가 작으면
+				num = push;
+				
+			}
+		}System.out.println("최대값은 " + num + " 입니다.");
+
 		sc.close();
-		while(true) {
 			
 		}
 		
@@ -28,4 +29,4 @@ public class Ex10 {
 
 	}
 
-}
+
