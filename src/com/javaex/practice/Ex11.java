@@ -23,6 +23,7 @@ public class Ex11 {
 				sum = sum+i;//
 			}System.out.println("결과값:"+sum);
 		}
-		
-	}
+		;
+		sc.close();
+		}
 }
